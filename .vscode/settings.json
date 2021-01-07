@@ -1,0 +1,9 @@
+{
+  "html.format.wrapAttributes": "force-aligned",
+  "html.format.wrapLineLength": 0,
+  "editor.wordWrap": "on",
+  "editor.formatOnType": true,
+  "editor.formatOnSave": false,
+  "vetur.format.defaultFormatter.js": "vscode-typescript",
+  "typescript.format.enable": false
+}
