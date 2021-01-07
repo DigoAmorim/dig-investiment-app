@@ -9,9 +9,9 @@ const [operacoes, setOperacoes] = useState([]);
 useEffect(() => {
   getOperacoes().then((data) => setOperacoes(data));
 
-    //console.log('Operações ==>> ' + operacoes[1].ativo); 
+    console.log('Operações ==>> ' + operacoes[1].ativo); 
   
-}, []); // eslint-disable-line react-hooks/exhaustive-deps
+}, []); // eslint-disable-line
 
   return (
 
