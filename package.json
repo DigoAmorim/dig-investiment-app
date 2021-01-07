@@ -12,8 +12,8 @@
     "primereact": "5.0.2",
     "react": "16.13.1",
     "react-dom": "16.13.1",
-    "react-transition-group": "4.4.1",
-    "typescript": "3.8.3"
+    "react-scripts": "4.0.1",
+    "react-transition-group": "4.4.1"
   },
   "devDependencies": {
     "typescript": "3.8.3"
