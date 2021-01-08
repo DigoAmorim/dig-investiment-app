@@ -129,6 +129,13 @@
   font-family: 'Inter', sans-serif;
 }
 
+.p-datatable-tbody {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+}
+
+
+
 .p-card .p-card-subtitle {
   font-weight: 500;
 }
