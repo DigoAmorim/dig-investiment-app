@@ -3,6 +3,15 @@
   padding-top: 80px;
 }
 
+.inside-content-login {
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+    height: 100vh;
+    background: url('https://www.primefaces.org/roma-react/assets/layout/images/pages/login-bg.jpg') no-repeat;
+    background-size: cover;
+}
+
 .inv-layout-topbar {
   background-color: #0772B3;
   height: 70px;
@@ -39,7 +48,6 @@
 
 .inv-layout-menu-container {
   background-color: #ffffff;
-  border: 1px solid #ebebef;
   border-left: 0;
   border-top: 0;
   position: fixed;
@@ -134,8 +142,70 @@
   font-weight: 500;
 }
 
+#tbfii.p-datatable tbody {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+}
 
+.p-component {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+}
+
+.p-inputtext {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+}
+
+.p-dropdown-item {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+}
 
 .p-card .p-card-subtitle {
   font-weight: 500;
+}
+
+.letraCorVerde {
+  /*color: rgb(0,97,0);*/
+  color: #0ea600;
+  /*background-color: rgb(183,225,205)*/
+}
+
+.letraCorVermelha {
+  /*color: rgb(156,0,6);*/
+  color: red;
+  /*background-color: rgb(225,199,206)*/
+}
+
+.login-panel {
+  padding: 0 70px 20px 70px;
+  height: 100%;
+  width: 556px;
+  position: absolute;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.9);
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+}
+
+.login-panel-content {
+  margin-top: 33%;
+}
+
+.titulo-login {
+  position: relative;
+  vertical-align: middle;
+  font-family: 'Caveat', cursive;
+  font-weight: bold;
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
+.subtitulo-login {
+  position: relative;
+  vertical-align: middle;
+  font-family: Inter, sans-serif;
+  padding-bottom: 20px;
 }

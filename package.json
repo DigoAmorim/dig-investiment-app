@@ -7,11 +7,14 @@
   "dependencies": {
     "axios": "0.21.1",
     "classnames": "2.2.6",
+    "cors": "2.8.5",
+    "google-spreadsheet": "3.1.15",
     "primeflex": "2.0.0",
     "primeicons": "4.0.0",
     "primereact": "5.0.2",
     "react": "16.13.1",
     "react-dom": "16.13.1",
+    "react-router-dom": "5.2.0",
     "react-scripts": "4.0.1",
     "react-transition-group": "4.4.1"
   },

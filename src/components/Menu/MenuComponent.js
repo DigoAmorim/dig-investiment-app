@@ -18,28 +18,28 @@ export default function MenuComponent() {
                 </li>
                 {/* Operações */}
                 <li>
-                    <a className="p-ripple active-menuitem-routerlink" href="">
+                    <a className="p-ripple active-menuitem-routerlink" href="/operacoes">
                         <i className="inv-layout-menuitem-icon pi pi-fw pi-check-square"/>
                         <span className="inv-layout-menuitem-text">Operações</span>
                     </a>
                 </li>
                 {/* Dividendos */}
                 <li>
-                    <a className="p-ripple active-menuitem-routerlink" href="">
+                    <a className="p-ripple active-menuitem-routerlink" href="/dividendos">
                         <i className="inv-layout-menuitem-icon pi pi-fw pi-money-bill"/>
                         <span className="inv-layout-menuitem-text">Dividendos</span>
                     </a>
                 </li>
                 {/* Fundos Imobiliários */}
                 <li>
-                    <a className="p-ripple active-menuitem-routerlink" href="">
+                    <a className="p-ripple active-menuitem-routerlink" href="/fundosImobiliarios">
                         <i className="inv-layout-menuitem-icon pi pi-fw pi-home"/>
                         <span className="inv-layout-menuitem-text">Fundos Imobiliários</span>
                     </a>
                 </li>
                 {/* Fundos de Ações */}
                 <li>
-                    <a className="p-ripple active-menuitem-routerlink" href="">
+                    <a className="p-ripple active-menuitem-routerlink" href="/login">
                         <i className="inv-layout-menuitem-icon pi pi-fw pi-briefcase"/>
                         <span className="inv-layout-menuitem-text">Fundos de Ações</span>
                     </a>
