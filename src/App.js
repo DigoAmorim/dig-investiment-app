@@ -18,20 +18,26 @@ import LoginComponent from "./components/LoginComponent";
 
 function setToken(userToken) {
 
-  console.log("Setando o token => " + userToken);
-  sessionStorage.setItem('token', JSON.stringify(userToken));
+  if (userToken == null) {
+    sessionStorage.removeItem('token'); 
+  } else {
+    sessionStorage.setItem('token', JSON.stringify(userToken));
+  }
+  
 }
 
 function getToken() {
   const tokenString = sessionStorage.getItem('token');
-  const userToken = JSON.parse(tokenString);
-  return userToken;
+  if (tokenString != null) {
+    const userToken = JSON.parse(tokenString);
+    if (userToken.length < 1) {
+      return null;
+    }
+    return userToken;
+  }
 }
 
 export default function App() {
-
-  console.log("Passando no App.js");
-  console.log(getToken());
 
   if(!getToken()) {
     return (
@@ -47,7 +53,7 @@ export default function App() {
     <div>
       <Router>
         <HeaderComponent/>
-        <MenuComponent/>
+        <MenuComponent setToken={setToken}/>
         <div className="container">
           <Switch>
             <Route path="/operacoes" component={OperacaoComponent} />

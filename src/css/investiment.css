@@ -209,3 +209,49 @@
   font-family: Inter, sans-serif;
   padding-bottom: 20px;
 }
+
+.avatar-imagem {
+  width: 55px;
+}
+
+.top-bar-menu {
+  float: right;
+  padding-right: 40px;
+  margin: 0;
+  height: 70px;
+  margin-top: -5px;
+  list-style-type: none;
+}
+
+.inv-layout-log-right {
+  padding: 0;
+  margin: 0;
+  vertical-align: middle;
+  font-family: inter, sans-serif;
+  font-size: 14px;
+  color: #E0FFFB;
+}
+
+.layout-profile-userinfo {
+  text-align: left;
+  display: inline-block;
+  margin: 20px 0 0 8px;
+  vertical-align: top;
+}
+
+@keyframes p-progress-spinner-color {
+  100%,
+  0% {
+      stroke: #0f97c7;
+  }
+  40% {
+      stroke: #0f97c7;
+  }
+  66% {
+      stroke: #0f97c7;
+  }
+  80%,
+  90% {
+      stroke: #0f97c7;
+  }
+}

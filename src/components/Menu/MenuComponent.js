@@ -1,6 +1,13 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
-export default function MenuComponent() {
+export default function MenuComponent({ setToken }) {
+
+    const efetuarLogout = async e => {
+
+        setToken(null);
+        window.location.reload(false);
+      }
 
   return (
      
@@ -64,7 +71,13 @@ export default function MenuComponent() {
                         <i className="inv-layout-menuitem-icon pi pi-fw pi-dollar"/>
                         <span className="inv-layout-menuitem-text">Patrimônio</span>
                     </a>
-                </li>                                                               
+                </li>                               {/* Sair */}
+                <li>
+                    <a className="p-ripple active-menuitem-routerlink" onClick={efetuarLogout} href="/">
+                        <i className="inv-layout-menuitem-icon pi pi-fw pi-times"/>
+                        <span className="inv-layout-menuitem-text">Sair</span>
+                    </a>
+                </li>                                
             </ul>
         </li>
     </ul>
@@ -72,4 +85,8 @@ export default function MenuComponent() {
 
   );
 
-}  
+}
+
+MenuComponent.propTypes = {
+    setToken: PropTypes.func.isRequired
+  }
